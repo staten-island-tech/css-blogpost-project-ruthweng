@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+
+
+body {
+    background-color: rgb(255,179,191);
+    text-align: center;
+
+}
+
+h1{
+    font-family: 'Trispace', serif;
+    font-size: 30px;
+    margin: 50px;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+.one{
+    padding: 10px 50px;
+    padding-bottom: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+    flex-grow: 1;
+    flex-basis: 0%;
+    
+}
+
+.walkers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#adeen {
+    background-color: rgb(255,230,234);
+}
+
+#dva {
+    background-color: rgb(255,230,234);
+}
+
+#tree{
+    background-color: rgb(255,230,234);
+}
